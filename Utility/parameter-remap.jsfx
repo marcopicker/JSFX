@@ -1,12 +1,12 @@
-desc:Pocram Parameter Remap
+desc:Picker Parameter Remap
 About:
 	# About
 	*Parameter Remap* is a JSFX that lets you remap a linked paramater to a different value.
-Link: https://github.com/Pocram93/JSFX
-Version: 0.9
+Link: https://github.com/marcopicker/JSFX
+Version: 0.10
 Author: Marco Picker
 Changelog:
-	Initial release.
+	Updated the name and GitHub link.
 
 slider1:input=0<-9999,9999,0.01>Input
 slider2:output=0<0,1,0.01>-Output

@@ -1,12 +1,12 @@
-desc:Pocram MIDI LFO Trigger
+desc:Picker MIDI LFO Trigger
 About:
   # About
   *MIDI LFO Trigger* is a JSFX plugin that creates a linear LFO every time a MIDI note is sent. The LFO is sent to the hidden "Output" slider.
-Link: https://github.com/Pocram93/JSFX
-Version: 0.1
+Link: https://github.com/marcopicker/JSFX
+Version: 0.2
 Author: Marco Picker
 Changelog:
-	Initial beta release.
+	Updated the name and GitHub link.
 
 slider1:channel=0<0,17,1{All,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>MIDI Channel
 

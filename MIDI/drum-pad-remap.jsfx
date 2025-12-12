@@ -1,4 +1,4 @@
-desc:Pocram Drum Pad Mapper
+desc:Picker Drum Pad Mapper
 About:
   # About
   *Drum Pad Mapper* is a JSFX plugin that lets the user remap der drum pads in an intuitive and playful way via a graphical user interface.
@@ -32,11 +32,11 @@ About:
   
   ## Removing a mapping
   In order to remove a mapping, simply hold `Ctrl` on *Windows* or `Cmd` on *OSX* use either the `left-` or `right mouse-button` to un-map or unregister a pad.
-Link: https://github.com/Pocram93/JSFX
-Version: 1.0
+Link: https://github.com/marcopicker/JSFX
+Version: 1.1
 Author: Marco Picker
 Changelog:
-	Initial release.
+	Updated the name and GitHub link.
 
 slider1:pad_midi_channel=0<0,16,1{All,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>Drum Pad Midi Channel
 slider2:set_out_midi_channel=0<0,16,1{All,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>Set Output Midi Channel

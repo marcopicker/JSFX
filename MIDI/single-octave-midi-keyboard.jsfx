@@ -1,12 +1,12 @@
-desc:Pocram Single Octave MIDI Keyboard
+desc:Picker Guild Wars 2 MIDI Keyboard
 About:
   # About
-  *[NAME]* is a JSFX plugin that transforms your computer keyboard into a MIDI keyboard that mimics the way you play music in *Guild Wars 2*.
-Link: https://github.com/Pocram93/JSFX
-Version: 0.3b
+  *Guild Wars 2 MIDI Keyboard* is a JSFX plugin that transforms your computer keyboard into a MIDI keyboard that mimics the way you play music in *Guild Wars 2*.
+Link: https://github.com/marcopicker/JSFX
+Version: 0.4b
 Author: Marco Picker
 Changelog:
-  Initial release.
+  Updated the name and GitHub link.
 
 slider1:note_1_key_code=49<-1,255,1>-Note 1 Key Code
 slider2:note_1_sharp_key_code=-1<-1,255,1>-Note 1# Key Code
