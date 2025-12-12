@@ -125,12 +125,12 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Pocram JSFX Repository\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/Pocram93/JSFX/actions/workflows/check.yml/badge.svg]\cf0} {\cf1 [image: https://github.com/Pocram93/JSFX/actions/workflows/deploy.yml/badge.svg]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 JSFX Repository\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/marcopicker/JSFX/actions/workflows/check.yml/badge.svg]\cf0} {\cf1 [image: https://github.com/marcopicker/JSFX/actions/workflows/deploy.yml/badge.svg]\cf0}\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 A collection of JS effects for REAPER, ready to be imported via ReaPack.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Installation with ReaPack\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Copy and paste this URL in Extensions > ReaPack > Import a repository:\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/Pocram93/JSFX/raw/master/index.xml\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/marcopicker/JSFX/raw/master/index.xml\par}
 }
 ]]></description>
   </metadata>
