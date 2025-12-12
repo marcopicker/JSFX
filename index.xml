@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Pocram JSFX" commit="43d961465d49ece6594ed834d2f8f21b2c5ed1d8">
+<index version="1" name="Pocram JSFX" commit="4af609b64f5c35c7b24a85fca2095fc225f12d89">
   <category name="MIDI">
     <reapack name="drum-pad-remap.jsfx" type="effect" desc="Pocram Drum Pad Mapper">
       <metadata>
@@ -74,6 +74,14 @@
         <changelog><![CDATA[Initial release.]]></changelog>
         <source>https://github.com/Pocram93/JSFX/raw/065577f4fa261d052f97900b69736f4b77cb8180/MIDI/single-octave-midi-keyboard.jsfx</source>
       </version>
+      <version name="0.3" author="Marco Picker" time="2025-07-15T19:22:58Z">
+        <changelog><![CDATA[Initial release.]]></changelog>
+        <source>https://github.com/Pocram93/JSFX/raw/de32d99d8dbb3e6ccc5b81cc4af51fe9f619f075/MIDI/single-octave-midi-keyboard.jsfx</source>
+      </version>
+      <version name="0.3b" author="Marco Picker" time="2025-07-15T19:23:35Z">
+        <changelog><![CDATA[Initial release.]]></changelog>
+        <source>https://github.com/Pocram93/JSFX/raw/1368ecc1f86b959a8977a7df03e1f6efca321d07/MIDI/single-octave-midi-keyboard.jsfx</source>
+      </version>
     </reapack>
   </category>
   <category name="Utility">
@@ -117,12 +125,12 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Pocram JSFX Repository\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/Pocram93/JSFX/actions/workflows/check.yml/badge.svg]\cf0} {\cf1 [image: https://github.com/Pocram93/JSFX/actions/workflows/deploy.yml/badge.svg]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 JSFX Repository\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/marcopicker/JSFX/actions/workflows/check.yml/badge.svg]\cf0} {\cf1 [image: https://github.com/marcopicker/JSFX/actions/workflows/deploy.yml/badge.svg]\cf0}\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 A collection of JS effects for REAPER, ready to be imported via ReaPack.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Installation with ReaPack\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Copy and paste this URL in Extensions > ReaPack > Import a repository:\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/Pocram93/JSFX/raw/master/index.xml\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/marcopicker/JSFX/raw/master/index.xml\par}
 }
 ]]></description>
   </metadata>
