@@ -1,6 +1,6 @@
-# Pocram JSFX Repository
+# JSFX Repository
 
-![check](https://github.com/Pocram93/JSFX/actions/workflows/check.yml/badge.svg) ![ReaPack Deploy](https://github.com/Pocram93/JSFX/actions/workflows/deploy.yml/badge.svg)
+![check](https://github.com/marcopicker/JSFX/actions/workflows/check.yml/badge.svg) ![ReaPack Deploy](https://github.com/marcopicker/JSFX/actions/workflows/deploy.yml/badge.svg)
 
 A collection of JS effects for REAPER, ready to be imported via ReaPack.
 
