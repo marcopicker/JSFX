@@ -9,5 +9,5 @@ A collection of JS effects for REAPER, ready to be imported via ReaPack.
 Copy and paste this URL in Extensions > ReaPack > Import a repository:
 
 ```
-https://github.com/Pocram93/JSFX/raw/master/index.xml
+https://github.com/marcopicker/JSFX/raw/master/index.xml
 ```
