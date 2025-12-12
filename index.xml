@@ -1,70 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Pocram JSFX" commit="4af609b64f5c35c7b24a85fca2095fc225f12d89">
+<index version="1" name="Pocram JSFX" commit="14c4e0f72797f4a7120dc9ec7e66e5ca0dff567f">
   <category name="MIDI">
-    <reapack name="drum-pad-remap.jsfx" type="effect" desc="Pocram Drum Pad Mapper">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 About\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\i Drum Pad Mapper} is a JSFX plugin that lets the user remap der drum pads in an intuitive and playful way via a graphical user interface.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Manual\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Sliders\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Drum Pad Midi Channel\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This slider specifies the drum pad\u8217's MIDI channel. Set this to the output channel of your drum pad.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Set Output Midi Channel\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This slider specifies which channel/s to listen to when setting any pad\u8217's \u8220"OUT\u8221" value.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Unmapped Pad Behaviour\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This sliders specifies whether to allow unmapped MIDI notes to pass through or not.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Pad Count\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This slider specifies how many pads there are on your physical drum pad.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 Pads Per Row\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This slider specifies how many pads to display per row. This assumes a rectangular pad arrangement.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Registering a pad\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 In order to register a pad\u8217's input note (for example the top left-hand-side pad) simply {\f1 right-click} it with your mouse. This arms the pad for selection. You can now trigger the respective physical drum pad that the virtual one should represent (in our example, the top left-hand-side one). {\f1 Right-click} the pad again to disarm the pad without changing anything.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 After registering all pads, you may want to save the layout as a preset in REAPER.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Mapping a pad to a note\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The process of mapping a pad to a note is similar to registering a pad. {\f1 Left-click} the desired pad with your mouse to arm it and then press the respective key on your MIDI device. {\f1 Left-click} the pad again to disarm the pad without changing anything.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Removing a mapping\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 In order to remove a mapping, simply hold {\f1 Ctrl} on {\i Windows} or {\f1 Cmd} on {\i OSX} use either the {\f1 left-} or {\f1 right mouse-button} to un-map or unregister a pad.\par}
-}
-]]></description>
-        <link rel="website">https://github.com/Pocram93/JSFX</link>
-      </metadata>
-      <version name="1.0" author="Marco Picker" time="2024-11-20T14:23:39Z">
-        <changelog><![CDATA[Initial release.]]></changelog>
-        <source>https://github.com/Pocram93/JSFX/raw/178d81968bb0797ea57c54e6d107d27fafc2a746/MIDI/drum-pad-remap.jsfx</source>
-      </version>
-    </reapack>
-    <reapack name="midi-lfo-trigger.jsfx" type="effect" desc="Pocram MIDI LFO Trigger">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 About\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\i MIDI LFO Trigger} is a JSFX plugin that creates a linear LFO every time a MIDI note is sent. The LFO is sent to the hidden "Output" slider.\par}
-}
-]]></description>
-        <link rel="website">https://github.com/Pocram93/JSFX</link>
-      </metadata>
-      <version name="0.1" author="Marco Picker" time="2024-11-20T14:23:39Z">
-        <changelog><![CDATA[Initial beta release.]]></changelog>
-        <source>https://github.com/Pocram93/JSFX/raw/178d81968bb0797ea57c54e6d107d27fafc2a746/MIDI/midi-lfo-trigger.jsfx</source>
-      </version>
-    </reapack>
-    <reapack name="single-octave-midi-keyboard.jsfx" type="effect" desc="Pocram Single Octave MIDI Keyboard">
+    <reapack name="drum-pad-remap.jsfx" type="effect" desc="Picker Drum Pad Mapper">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 About\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\i [NAME]} is a JSFX plugin that transforms your computer keyboard into a MIDI keyboard that mimics the way you play music in {\i Guild Wars 2}.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\i Drum Pad Mapper} is a JSFX plugin that lets the user remap der drum pads in an intuitive and playful way via a graphical user interface.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Manual\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Sliders\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Drum Pad Midi Channel\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This slider specifies the drum pad\u8217's MIDI channel. Set this to the output channel of your drum pad.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Set Output Midi Channel\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This slider specifies which channel/s to listen to when setting any pad\u8217's \u8220"OUT\u8221" value.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Unmapped Pad Behaviour\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This sliders specifies whether to allow unmapped MIDI notes to pass through or not.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Pad Count\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This slider specifies how many pads there are on your physical drum pad.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Pads Per Row\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This slider specifies how many pads to display per row. This assumes a rectangular pad arrangement.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Registering a pad\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 In order to register a pad\u8217's input note (for example the top left-hand-side pad) simply {\f1 right-click} it with your mouse. This arms the pad for selection. You can now trigger the respective physical drum pad that the virtual one should represent (in our example, the top left-hand-side one). {\f1 Right-click} the pad again to disarm the pad without changing anything.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 After registering all pads, you may want to save the layout as a preset in REAPER.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Mapping a pad to a note\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The process of mapping a pad to a note is similar to registering a pad. {\f1 Left-click} the desired pad with your mouse to arm it and then press the respective key on your MIDI device. {\f1 Left-click} the pad again to disarm the pad without changing anything.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Removing a mapping\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 In order to remove a mapping, simply hold {\f1 Ctrl} on {\i Windows} or {\f1 Cmd} on {\i OSX} use either the {\f1 left-} or {\f1 right mouse-button} to un-map or unregister a pad.\par}
 }
 ]]></description>
-        <link rel="website">https://github.com/Pocram93/JSFX</link>
+        <link rel="website">https://github.com/marcopicker/JSFX</link>
+      </metadata>
+      <version name="1.0" author="Marco Picker" time="2024-11-20T14:23:39Z">
+        <changelog><![CDATA[Initial release.]]></changelog>
+        <source>https://github.com/Pocram93/JSFX/raw/178d81968bb0797ea57c54e6d107d27fafc2a746/MIDI/drum-pad-remap.jsfx</source>
+      </version>
+      <version name="1.1" author="Marco Picker" time="2025-12-12T22:40:42Z">
+        <changelog><![CDATA[Updated the name and GitHub link.]]></changelog>
+        <source>https://github.com/marcopicker/JSFX/raw/14c4e0f72797f4a7120dc9ec7e66e5ca0dff567f/MIDI/drum-pad-remap.jsfx</source>
+      </version>
+    </reapack>
+    <reapack name="midi-lfo-trigger.jsfx" type="effect" desc="Picker MIDI LFO Trigger">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 About\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\i MIDI LFO Trigger} is a JSFX plugin that creates a linear LFO every time a MIDI note is sent. The LFO is sent to the hidden "Output" slider.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/marcopicker/JSFX</link>
+      </metadata>
+      <version name="0.1" author="Marco Picker" time="2024-11-20T14:23:39Z">
+        <changelog><![CDATA[Initial beta release.]]></changelog>
+        <source>https://github.com/Pocram93/JSFX/raw/178d81968bb0797ea57c54e6d107d27fafc2a746/MIDI/midi-lfo-trigger.jsfx</source>
+      </version>
+      <version name="0.2" author="Marco Picker" time="2025-12-12T22:40:42Z">
+        <changelog><![CDATA[Updated the name and GitHub link.]]></changelog>
+        <source>https://github.com/marcopicker/JSFX/raw/14c4e0f72797f4a7120dc9ec7e66e5ca0dff567f/MIDI/midi-lfo-trigger.jsfx</source>
+      </version>
+    </reapack>
+    <reapack name="single-octave-midi-keyboard.jsfx" type="effect" desc="Picker Guild Wars 2 MIDI Keyboard">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 About\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\i Guild Wars 2 MIDI Keyboard} is a JSFX plugin that transforms your computer keyboard into a MIDI keyboard that mimics the way you play music in {\i Guild Wars 2}.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/marcopicker/JSFX</link>
       </metadata>
       <version name="0.1" author="Marco Picker" time="2025-07-14T16:56:06Z">
         <changelog><![CDATA[Initial release.]]></changelog>
@@ -82,41 +90,53 @@
         <changelog><![CDATA[Initial release.]]></changelog>
         <source>https://github.com/Pocram93/JSFX/raw/1368ecc1f86b959a8977a7df03e1f6efca321d07/MIDI/single-octave-midi-keyboard.jsfx</source>
       </version>
+      <version name="0.4b" author="Marco Picker" time="2025-12-12T22:40:42Z">
+        <changelog><![CDATA[Updated the name and GitHub link.]]></changelog>
+        <source>https://github.com/marcopicker/JSFX/raw/14c4e0f72797f4a7120dc9ec7e66e5ca0dff567f/MIDI/single-octave-midi-keyboard.jsfx</source>
+      </version>
     </reapack>
   </category>
   <category name="Utility">
-    <reapack name="parameter-remap.jsfx" type="effect" desc="Pocram Parameter Remap">
+    <reapack name="parameter-remap.jsfx" type="effect" desc="Picker Parameter Remap">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 About\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 About\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 {\i Parameter Remap} is a JSFX that lets you remap a linked paramater to a different value.\par}
 }
 ]]></description>
-        <link rel="website">https://github.com/Pocram93/JSFX</link>
+        <link rel="website">https://github.com/marcopicker/JSFX</link>
       </metadata>
       <version name="0.9" author="Marco Picker" time="2024-11-20T14:23:39Z">
         <changelog><![CDATA[Initial release.]]></changelog>
         <source>https://github.com/Pocram93/JSFX/raw/178d81968bb0797ea57c54e6d107d27fafc2a746/Utility/parameter-remap.jsfx</source>
       </version>
+      <version name="0.10" author="Marco Picker" time="2025-12-12T22:40:42Z">
+        <changelog><![CDATA[Updated the name and GitHub link.]]></changelog>
+        <source>https://github.com/marcopicker/JSFX/raw/14c4e0f72797f4a7120dc9ec7e66e5ca0dff567f/Utility/parameter-remap.jsfx</source>
+      </version>
     </reapack>
-    <reapack name="tempo-link.jsfx" type="effect" desc="Pocram Tempo Link">
+    <reapack name="tempo-link.jsfx" type="effect" desc="Picker Tempo Link">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 About\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 About\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 {\i Tempo Link} is a simple JSFX that offers a hidden one-way \u8220"Tempo\u8221" slider to link to.\par}
 }
 ]]></description>
-        <link rel="website">https://github.com/Pocram93/JSFX</link>
+        <link rel="website">https://github.com/marcopicker/JSFX</link>
       </metadata>
       <version name="1.0" author="Marco Picker" time="2024-11-20T14:23:39Z">
         <changelog><![CDATA[Initial release.]]></changelog>
         <source>https://github.com/Pocram93/JSFX/raw/178d81968bb0797ea57c54e6d107d27fafc2a746/Utility/tempo-link.jsfx</source>
+      </version>
+      <version name="1.1" author="Marco Picker" time="2025-12-12T22:40:42Z">
+        <changelog><![CDATA[Updated the name and GitHub link.]]></changelog>
+        <source>https://github.com/marcopicker/JSFX/raw/14c4e0f72797f4a7120dc9ec7e66e5ca0dff567f/Utility/tempo-link.jsfx</source>
       </version>
     </reapack>
   </category>
